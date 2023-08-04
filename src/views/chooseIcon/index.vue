@@ -1,5 +1,7 @@
 <template>
-  <ChooseIcon title="选择图标" v-model:visible="visible">选择图标</ChooseIcon>
+  <wj-choose-icon title="选择图标" v-model:visible="visible"
+    >选择图标</wj-choose-icon
+  >
 </template>
 
 <script lang="ts" setup>
